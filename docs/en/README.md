@@ -44,7 +44,7 @@ Usage: main.py [OPTIONS] PATHS...
 │ --output          -o      PATH                                                               │
 │ --threads         -t      INTEGER   [default: 4]                                             │
 │ --sort-by         -s      TEXT      severity|file [default: severity]                        │
-│ --hide-low-info   -m                Hide LOW and INFO from output                             │
+│ --hide-low-info   -m                Hide LOW and INFO fromoutput                             │
 │ --min-severity            TEXT      Minimum level to show:                                   │
 │                                     CRITICAL|HIGH|MEDIUM|LOW|INFO [default: INFO]            │
 │ --help                              Show this message and exit.                              │

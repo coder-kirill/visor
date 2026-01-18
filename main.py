@@ -521,7 +521,7 @@ def scan(
     
     
     # убираем дубликаты вдруг файлы и папки пересеклись
-    files = list(set(raw_files))
+    files = sorted(set(raw_files))
 
     if not files:
         console.print("[yellow]⚠ Файлы для сканирования не найдены.[/yellow]")
